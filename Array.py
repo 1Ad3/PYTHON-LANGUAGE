@@ -32,3 +32,13 @@ num_list=[1,2,3,4,5,6,7,8]
 number_array=array('i',num_list)
 print("numbers are: " , number_array[1:7])
 
+
+
+odd = array('i', [1, 3, 5])
+even = array('i', [2, 4, 6])
+
+numbers = array('i')  # creating empty array of integer
+numbers = odd + even
+
+print(numbers)
+
